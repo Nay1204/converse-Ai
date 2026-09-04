@@ -13,8 +13,7 @@ export function validateTranscript(fileName: string, transcript: string) {
 
 export async function analyzeTranscript(fileName: string, transcript: string): Promise<AnalysisResponse> {
   const normalized = validateTranscript(fileName, transcript);
-  const endpoint = import.meta.env.VITE_N8N_WEBHOOK_URL
-    || 'https://naynikasarkar.app.n8n.cloud/webhook/converseiq-analyze';
+  const endpoint = '/api/analyze';
 
   const controller = new AbortController();
   const timeout = window.setTimeout(() => controller.abort(), 60000);
