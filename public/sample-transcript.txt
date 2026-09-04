@@ -1,0 +1,12 @@
+Agent: Good morning, Tata Tele Business Services support. This is Priya. How can I help you today?
+Customer: Our primary internet line has been dropping since yesterday and our billing team cannot access the ERP. This is the third call I have made.
+Agent: I am sorry you have had to contact us again, especially while your team is blocked. I will own this case and check the circuit now.
+Customer: We are losing invoice processing time every hour. I need this escalated, not another ticket number.
+Agent: I understand the impact. I can see intermittent packet loss on the circuit, and I am escalating it to our network operations team as a priority incident.
+Customer: How long will this take? We have a client billing deadline this afternoon.
+Agent: The team has accepted the incident. The immediate workaround is to fail over to your backup link; I will stay with you while we switch it.
+Customer: The ERP is loading now on the backup. It is slower, but at least the team can work.
+Agent: Good. Your primary circuit still needs repair, so this remains open. I will call you by 2 PM with the network team's update.
+Customer: That is better. Please make sure I do not have to explain everything again when you call.
+Agent: Absolutely. I have documented the impact and the steps we took today. I will be your point of contact.
+Customer: Thank you. I will wait for your update.
